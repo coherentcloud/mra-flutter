@@ -40,11 +40,13 @@ class KHugeBUtton extends StatelessWidget {
             Text(
               subTitle,
               style: GoogleFonts.poppins(
-                  textStyle: TextStyle(
-                      fontSize: 15.0,
-                      color: kPrimaryColor,
-                      letterSpacing: 0.5,
-                      fontWeight: FontWeight.w400)),
+                textStyle: TextStyle(
+                    fontSize: 15.0,
+                    color: kPrimaryColor,
+                    letterSpacing: 0.5,
+                    fontWeight: FontWeight.w400),
+              ),
+              textAlign: TextAlign.center,
             )
           ],
         ),

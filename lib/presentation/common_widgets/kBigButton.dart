@@ -25,8 +25,8 @@ class KBigButton extends StatelessWidget {
           text,
           style: GoogleFonts.poppins(
               textStyle: TextStyle(
-            fontSize: 16.0,
-            color: kTextColor2.withOpacity(0.8),
+            fontSize: 18.0,
+            color: kTextColor2.withOpacity(0.9),
             fontWeight: FontWeight.w400,
             letterSpacing: 1,
           )),
