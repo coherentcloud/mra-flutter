@@ -157,7 +157,7 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-Row _buildHealthSavingsImagePanel() {
+Widget _buildHealthSavingsImagePanel() {
   return Row(
     mainAxisAlignment: MainAxisAlignment.center,
     children: [

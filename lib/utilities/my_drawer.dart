@@ -1,4 +1,6 @@
 import 'package:coherence_app/presentation/screens/activate_page/activate_page.dart';
+import 'package:coherence_app/presentation/screens/earn_rewards_page/earn_rewards_page.dart';
+import 'package:coherence_app/presentation/screens/rewards_page/my_rewards_page.dart';
 import 'package:coherence_app/utilities/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -31,14 +33,20 @@ class MyDrawer extends StatelessWidget {
               child: Column(
                 children: [
                   TextButton(
-                      onPressed: () => Get.to(() => ActivatePage()),
+                      onPressed: () {
+                        Get.back();
+                        Get.to(() => ActivatePage());
+                      },
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child: Text("Activate", style: kDrawerItemTextStyle),
                       )),
                   Divider(thickness: 2),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.back();
+                        Get.to(() => EarnRewardsPage());
+                      },
                       child: Align(
                         alignment: Alignment.centerLeft,
                         child:
@@ -46,7 +54,10 @@ class MyDrawer extends StatelessWidget {
                       )),
                   Divider(thickness: 2),
                   TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Get.back();
+                        Get.to(() => MyRewardsPage());
+                      },
                       child: Align(
                           alignment: Alignment.centerLeft,
                           child:
