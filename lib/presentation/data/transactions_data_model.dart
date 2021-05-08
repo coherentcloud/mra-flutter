@@ -16,14 +16,14 @@ class TransactionsModel {
 
 List<TransactionsModel> transactionsList = [
   TransactionsModel(
-    date: "1/1/21",
+    date: "3/1/21",
     activity: "Deposit",
     amount: "\$1000.00   ",
     status: "Posted",
     type: "Credit",
   ),
   TransactionsModel(
-    date: "2/1/21",
+    date: "3/1/21",
     activity: "Reward",
     amount: "\$100.00   ",
     status: "Pending",
@@ -31,7 +31,7 @@ List<TransactionsModel> transactionsList = [
   ),
   TransactionsModel(
     date: "4/1/21",
-    activity: "Wallgreens",
+    activity: "Walgreens",
     amount: "\$10.00   ",
     status: "Posted",
     type: "Expense",

@@ -1,6 +1,7 @@
 import 'package:coherence_app/presentation/common_widgets/kHugeButton.dart';
 import 'package:coherence_app/presentation/screens/deposit_rewards/deposit_rewards_page.dart';
 import 'package:coherence_app/presentation/screens/education_rewards/education_rewards_page.dart';
+import 'package:coherence_app/presentation/screens/employer_rewards/fitness_rewards_page.dart';
 import 'package:coherence_app/presentation/screens/homepage/home_page.dart';
 import 'package:coherence_app/presentation/screens/investment_rewards/investment_rewards_page.dart';
 import 'package:coherence_app/presentation/screens/sharing_rewards/sharing_rewards_page.dart';
@@ -50,13 +51,18 @@ class EarnRewardsPage extends StatelessWidget {
                 SizedBox(height: 40.0),
                 KHugeBUtton(
                     title: "Deposit Money",
-                    subTitle: "Get a match from your client",
+                    subTitle: "Get a match from your employer",
                     onPressed: () => Get.to(DepositRewardsPage())),
                 SizedBox(height: 20.0),
                 KHugeBUtton(
                     title: "Invest Your Savings",
-                    subTitle: "Get 1 free stock",
+                    subTitle: "Get free stocks",
                     onPressed: () => Get.to(InvestmentRewardsPage())),
+                SizedBox(height: 20.0),
+                KHugeBUtton(
+                    title: "Meet Fitness Goals",
+                    subTitle: "Get a match from your employer",
+                    onPressed: () => Get.to(FitnessRewardsPage())),
                 SizedBox(height: 20.0),
                 KHugeBUtton(
                     title: "Share With Your Friends",

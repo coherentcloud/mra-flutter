@@ -84,7 +84,7 @@ class _ActivatePageState extends State<ActivatePage> {
                         letterSpacing: 1,
                       )),
                     ),
-                    onPressed: () {},
+                    onPressed: () => Get.offAll(HomePage()),
                   ),
                 ),
               ),
@@ -92,18 +92,13 @@ class _ActivatePageState extends State<ActivatePage> {
           ),
         ),
         bottomNavigationBar: GestureDetector(
-          onTap: () => Get.offAll(HomePage()),
           child: Container(
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Image(
-                  image: AssetImage("images/white.png"),
-                  height: 60.0,
-                ),
                 SizedBox(width: 10.0),
                 Text(
-                  'Main Menu',
+                  'My Rewards App',
                   style: GoogleFonts.merriweatherSans(
                       textStyle: TextStyle(
                           fontSize: 18.0,
